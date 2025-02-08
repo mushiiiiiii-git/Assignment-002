@@ -104,6 +104,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .hero-items {
     max-width: 850px;
 }
@@ -122,7 +123,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1.25rem;
+    font-size: 1.66rem;
     padding: 32px 0px;
 }
 
@@ -134,9 +135,122 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     padding: 13.3px 62.5px;
+    cursor: pointer;
 }
+
 .hero-img {
     width: 622.44px;
+}
+
+/* Main Styles */
+.main {
+    background-image: url('../assets/bg.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-origin: border-box;
+}
+
+/* Curriculum Section Styles */
+.curriculum-section {
+    text-align: center;
+}
+
+.curriculum-section-title {
+    font-size: 3.83rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 106px;
+    color: var(--primary-text-color);
+}
+
+.curriculum-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 186px;
+    margin-bottom: 106px;
+    gap: 38px;
+}
+
+
+.curriculum-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13.3px;
+    margin-bottom: 80px;
+}
+
+.section-nav-icon {
+    width: 80px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.curriculum-card-1,
+.curriculum-card-2,
+.curriculum-card-3 {
+    max-width: 490px;
+    max-height: 634.11px;
+    padding: 66.5px 53px;
+    border: none;
+    border-radius: 18.86px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    margin-top: 43px;
+    margin-bottom: 44px;
+}
+
+.card-description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+    margin-bottom: 45.22px;
+}
+
+.curriculum-card-1 {
+    background: linear-gradient(0deg, #ffffff 85%, rgba(222, 245, 255, 1));
+    border: 0.5px solid rgba(222, 245, 255, 1);
+}
+
+.curriculum-card-2 {
+    background: linear-gradient(0deg, #ffffff 85%, rgba(255, 244, 220, 1));
+    border: 0.5px solid #FFF4DC 100%;
+}
+
+.curriculum-card-3 {
+    background: linear-gradient(0deg, #ffffff 85%, #EEE1FF 100%);
+    border: 0.5px solid #F2E8FF 100%;
+}
+
+.card-btn-1,
+.card-btn-2,
+.card-btn-3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card-btn-1 {
+    color: rgba(100, 200, 255, 1);
+}
+
+.card-btn-2 {
+    color: rgba(240, 170, 0, 1);
+}
+
+.card-btn-3 {
+    color: rgba(135, 0, 255, 1);
 }
 
 
@@ -146,7 +260,8 @@ body {
 
     .logo-text,
     .nav-container,
-    .contact-button {
+    .contact-button,
+    .curriculum-nav {
         position: absolute;
         display: none;
     }
@@ -161,6 +276,7 @@ body {
         padding: 15.96px 21.28px;
         border: 1px solid var(--primary-color);
     }
+
     /* Responsive Hero-section Styles */
     .hero-section {
         flex-direction: column-reverse;
@@ -168,23 +284,70 @@ body {
         justify-content: center;
         padding: 10px;
     }
+
     .hero-items {
         text-align: center;
         max-width: 570px;
     }
+
     .hero-title {
         font-size: 2.66rem;
     }
+
     .hero-description {
         font-size: 1.163rem;
     }
+
     .hero-btn {
         font-size: 1.33rem;
         padding: 7.98px 31.92px;
     }
+
     .hero-img {
         width: 100%;
         padding: 26.6px 0px;
+    }
+
+    /* Responsive Curriculum Section Styles */
+    .curriculum-section-title {
+        font-size: 2.16rem;
+        margin-top: 53px;
+        margin-bottom: 26.6px;
+    }
+
+    .curriculum-card-container {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 26.6px;
+        gap: 16.4px;
+    }
+
+    .curriculum-card-1,
+    .curriculum-card-2,
+    .curriculum-card-3 {
+        max-width: 474px;
+        max-height: 427.3px;
+        padding: 47.88px 58.51px;
+        border: none;
+        border-radius: 18.86px;
+        margin: 16.35px 22px;
+    }
+
+    .card-title {
+        font-size: 1.33rem;
+        margin-top: 29.26px;
+        margin-bottom: 29.26px;
+    }
+
+    .card-description {
+        font-size: 0.85rem;
+        margin-bottom: 29.26px;
+    }
+
+    .card-btn-1,
+    .card-btn-2,
+    .card-btn-3 {
+        font-size: 0.85rem;
     }
 
 }
