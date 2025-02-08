@@ -216,17 +216,17 @@ body {
 }
 
 .curriculum-card-1 {
-    background: linear-gradient(0deg, #ffffff 85%, rgba(222, 245, 255, 1));
+    background: linear-gradient(0deg, #ffffff 80%, rgba(222, 245, 255, 1));
     border: 0.5px solid rgba(222, 245, 255, 1);
 }
 
 .curriculum-card-2 {
-    background: linear-gradient(0deg, #ffffff 85%, rgba(255, 244, 220, 1));
+    background: linear-gradient(0deg, #ffffff 80%, rgba(255, 244, 220, 1));
     border: 0.5px solid #FFF4DC 100%;
 }
 
 .curriculum-card-3 {
-    background: linear-gradient(0deg, #ffffff 85%, #EEE1FF 100%);
+    background: linear-gradient(0deg, #ffffff 80%, #EEE1FF 100%);
     border: 0.5px solid #F2E8FF 100%;
 }
 
@@ -253,6 +253,108 @@ body {
     color: rgba(135, 0, 255, 1);
 }
 
+/* Stories Section Styles */
+.stories {
+    padding: 0 186px;
+    background: linear-gradient(0deg, #fea1016f 0%, #FFFFFF 100%);
+    padding-bottom: 80px;
+}
+.stories-section-title {
+    text-align: center;
+    font-size: 3.83rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 106px;
+    color: var(--primary-text-color);
+}
+.story-container {
+    display: flex;
+    gap: 24.9px;
+    justify-content: space-between;
+}
+.story-container-one {
+    max-width: 718px;
+}
+.story-container-two {
+    max-width: 799px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25.8px;
+}
+.story-card {
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+}
+.story-card img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.story-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    margin-bottom: 38.25px;
+    text-align: start;
+    padding-left: 51px;
+    padding-right: 50px;
+}
+.story-card-description {
+    font-size: 1.275rem;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    margin-top: 63.8px;
+    padding-bottom: 45.88px;
+    text-align: start;
+    padding-left: 51px;
+    padding-right: 50px;
+}
+.story-one {
+    background-color: white;
+    height: 838px;
+    border: none;
+    border-radius: 16px;
+}
+.story-one .story-card-title {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.story-btn-1,
+.story-btn-2,
+.story-btn-3,
+.story-btn-4,
+.story-btn-5 {
+    position: relative;
+    left: 51px;
+    bottom: 32px;
+    color: white;
+    border: none;
+    border-radius: 47.93px;
+    padding: 20px 25px;
+    font-size: 1.275rem;
+    font-weight: 500;
+}
+.story-btn-1 {background-color: rgba(60, 216, 232, 1);}
+.story-btn-2,
+.story-btn-4,
+ .story-btn-5 {background-color: rgba(149, 178, 38, 1);}
+.story-btn-3 {background-color: rgba(93, 88, 240, 1);}
+.view-btn-container {
+    margin-top: 106px;
+    text-align: center;
+}
+.view-btn {
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 13.3px 81px;
+    cursor: pointer; 
+}
+
 
 
 /* Mobile Responsive Designs */
@@ -261,7 +363,8 @@ body {
     .logo-text,
     .nav-container,
     .contact-button,
-    .curriculum-nav {
+    .curriculum-nav,
+    .story-one {
         position: absolute;
         display: none;
     }
