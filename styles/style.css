@@ -259,6 +259,7 @@ body {
     background: linear-gradient(0deg, #fea1016f 0%, #FFFFFF 100%);
     padding-bottom: 80px;
 }
+
 .stories-section-title {
     text-align: center;
     font-size: 3.83rem;
@@ -267,30 +268,36 @@ body {
     margin-bottom: 106px;
     color: var(--primary-text-color);
 }
+
 .story-container {
     display: flex;
     gap: 24.9px;
     justify-content: space-between;
 }
+
 .story-container-one {
     max-width: 718px;
 }
+
 .story-container-two {
     max-width: 799px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25.8px;
 }
+
 .story-card {
     border: none;
     border-radius: 16px;
     background-color: white;
 }
+
 .story-card img {
     width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+
 .story-card-title {
     font-size: 1.25rem;
     font-weight: 700;
@@ -300,6 +307,7 @@ body {
     padding-left: 51px;
     padding-right: 50px;
 }
+
 .story-card-description {
     font-size: 1.275rem;
     color: var(--secondary-text-color);
@@ -310,16 +318,19 @@ body {
     padding-left: 51px;
     padding-right: 50px;
 }
+
 .story-one {
     background-color: white;
     height: 838px;
     border: none;
     border-radius: 16px;
 }
+
 .story-one .story-card-title {
     font-size: 2rem;
     margin-top: 30px;
 }
+
 .story-btn-1,
 .story-btn-2,
 .story-btn-3,
@@ -335,15 +346,26 @@ body {
     font-size: 1.275rem;
     font-weight: 500;
 }
-.story-btn-1 {background-color: rgba(60, 216, 232, 1);}
+
+.story-btn-1 {
+    background-color: rgba(60, 216, 232, 1);
+}
+
 .story-btn-2,
 .story-btn-4,
- .story-btn-5 {background-color: rgba(149, 178, 38, 1);}
-.story-btn-3 {background-color: rgba(93, 88, 240, 1);}
+.story-btn-5 {
+    background-color: rgba(149, 178, 38, 1);
+}
+
+.story-btn-3 {
+    background-color: rgba(93, 88, 240, 1);
+}
+
 .view-btn-container {
     margin-top: 106px;
     text-align: center;
 }
+
 .view-btn {
     background-color: black;
     border: none;
@@ -352,7 +374,7 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     padding: 13.3px 81px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
@@ -451,6 +473,50 @@ body {
     .card-btn-2,
     .card-btn-3 {
         font-size: 0.85rem;
+    }
+
+    /* Stories Section Styles */
+    .stories {
+        padding: 0px 16px;
+        padding-bottom: 53px;
+    }
+
+    .stories-section-title {
+        font-size: 2.16rem;
+        margin-top: 80px;
+        margin-bottom: 26.6px;
+    }
+    .story-container {
+        gap: 0px;
+    }
+
+    .story-container-two {
+        max-width: 475px;
+        gap: 15px;
+    }
+
+    .story-card-title {
+        font-size: 0.759rem;
+        margin-bottom: 26.6px;
+        padding-left: 30px;
+        padding-right: 43px;
+    }
+
+    .story-btn-2,
+    .story-btn-3,
+    .story-btn-4,
+    .story-btn-5 {
+        left: 30px;
+        bottom: 15px;
+        padding: 8px 15.1px;
+        font-size: 0.57rem;
+    }
+    .view-btn-container {
+        margin-top: 26.6px;
+    }
+    .view-btn {
+        font-size: 1rem;
+        padding: 10px 37px;
     }
 
 }
